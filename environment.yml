@@ -3,10 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - r-base=3.6
-  - r-tidyverse
   - python
-  - numpy
-  - matplotlib
-  - pandas
-  - bokeh
   - rise
+  - pip:
+    - jupyter-contrib-nbextensions
